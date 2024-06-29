@@ -1,0 +1,14 @@
+.custom-card-light {
+    border-radius: 5px;
+    border: 1px solid rgb(239, 237, 237);
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.1); 
+
+}
+
+.custom-card-dark{
+    background-color: rgb(39, 38, 38);
+    color: rgb(248, 247, 247);
+    border-radius: 5px;
+    border: 1px solid rgb(40, 39, 39);
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);  
+}

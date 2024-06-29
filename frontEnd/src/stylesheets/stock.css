@@ -1,0 +1,30 @@
+
+.stock-light{
+    height: 90vh;
+    /* position: sticky;  */
+    z-index: 2; 
+}
+
+.stock-dark{
+    height:90vh;
+    position: sticky; 
+    z-index: 2; 
+    background-color: rgb(27, 27, 27);
+}
+
+.stockPageHeader-light {
+    margin-top:10px;
+    padding-bottom: 10px;
+}
+
+.stockPageHeader-dark {
+    color :white;
+    margin-bottom: 25px;
+    padding-top:10px;
+}
+
+h6 {
+    color : rgb(209, 20, 20);
+    padding-left : 30px;
+}
+

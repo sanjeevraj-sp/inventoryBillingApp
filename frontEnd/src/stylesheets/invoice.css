@@ -1,0 +1,27 @@
+.invoice-light{
+    padding-top: 1.15rem;
+    padding-left: 220px;
+    padding-right: 220px;
+    height: 90vh;
+}
+
+.invoice-dark{
+    position: sticky; 
+    background-color: rgb(27, 27, 27);
+    padding-top: 1.15rem;
+    padding-left: 220px;
+    padding-right: 220px;
+    color : white;
+    padding-bottom: 30px;
+    height: 90vh;
+}
+
+.invoicePageHeader-light {
+    margin-bottom: 10px;
+}
+
+.invoicePageHeader-dark {
+    color :white;
+    margin-bottom: 40px;
+}
+

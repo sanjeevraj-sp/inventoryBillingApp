@@ -1,0 +1,87 @@
+.lowStockProducts-light,
+.lowStockProducts-dark {
+  margin-top: 7vh;
+}
+
+.tableContainer-light , .tableContainer-dark {
+    padding-left: 390px;
+}
+/* Table styles for both light and dark mode */
+.table-light {
+  width: 64%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #ffffff; /* Light mode background color */
+  color: #333333; /* Light mode text color */
+}
+
+.table-dark {
+  width: 64%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #3c3c3c; /* Dark mode background color */
+  color: #ffffff; /* Dark mode text color */
+}
+
+/* Table header */
+.table-light th {
+  background-color: #d1d1d1; /* Light mode header background color */
+  color: #434242; /* Light mode header text color */
+  font-weight: bold;
+  padding: 12px;
+  text-align: left;
+}
+
+.table-dark th {
+  background-color: #212121; /* Dark mode header background color */
+  color: #ffffff; /* Dark mode header text color */
+  font-weight: bold;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Table body */
+.table-light td,
+.table-dark td {
+  padding: 12px;
+}
+
+/* Alternating row colors */
+.table-light tbody tr:nth-child(even) {
+  background-color: #f1f1f1; /* Light mode even row background color */
+}
+
+/* Hover effect */
+.table-light tbody tr:hover {
+  background-color: #969696; /* Light mode row hover background color */
+  color : white;
+}
+
+.table-dark tbody tr:nth-child(even) {
+  background-color: #6d6d6e; /* Dark mode even row background color */
+}
+
+.table-dark tbody tr:hover {
+  background-color: #e4e3e3; /* Dark mode row hover background color */
+  color : black;
+}
+
+.pdfGenaratorBtn {
+  padding-top: 30px;
+  padding-left: 390px;
+}
+
+.salesData-light{
+   padding-top: 10px;
+   font-size: 18px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.salesData-dark {
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+    color :rgb(206, 243, 246);
+}

@@ -1,0 +1,13 @@
+
+.inventory-light{
+    height: 90vh;
+    position: sticky; 
+    z-index: 2; 
+}
+
+.inventory-dark{
+    height:90vh;
+    position: sticky; 
+    z-index: 2; 
+    background-color: rgb(27, 27, 27);
+}

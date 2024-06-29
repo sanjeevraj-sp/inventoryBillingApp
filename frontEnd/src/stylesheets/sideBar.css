@@ -1,0 +1,115 @@
+.Sidebar-light {
+  background-color: #d0e4ec;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 15%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 20;
+}
+
+.Sidebar-dark {
+  background-color: rgb(2, 25, 34);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 15%;
+  padding: 0;
+  box-shadow: 0 0 10px rgba(200, 197, 197, 0.3);
+  z-index: 20;
+}
+
+.arrowIcon {
+  width: 3rem;
+  height: 3.7rem;
+  position: absolute;
+  right: 10px;
+  padding-top: 10px;
+}
+
+.tabs {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+  justify-content: center;
+}
+
+.dashboardIcon {
+  margin-left: 65px;
+  height : 2.4rem;
+  width: 2.4rem; 
+}
+
+.brandIcon {
+  margin-left: 74px;
+  height : 2.3rem;
+  width: 2.2rem;
+}
+
+.invoiceIcon{
+  height: 2.2rem;
+  width: 2.3rem;
+  margin-left: 93px;
+}
+
+.stockIcon{
+  height: 2.4rem;
+  width: 2.1em;
+  margin-left: 106px;
+}
+
+.reportIcon{
+  height: 2.6rem;
+  width: 2.6rem;
+  margin-left: 85px;
+}
+
+.logoutIcon{
+  height: 2.2rem;
+  width: 2.3rem;
+  margin-left: 91px;
+}
+
+.themeIcon{
+  height: 2.9rem;
+  width: 2.7rem;
+  margin-left:51px;
+}
+
+.loginIcon{
+  height: 2.3rem;
+  width: 2.4rem;
+  margin-left: 109px;
+}
+
+.signinIcon{
+  height: 2.7rem;
+  width: 2.7rem;
+  margin-left: 94px;
+}
+
+.tab {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(11, 116, 220);
+  padding: 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: box-shadow 0.3s ease;
+}
+
+.tab:hover {
+  box-shadow: 0 0 5px rgba(14, 204, 172, 0.5);
+}
+
+.bottom-tabs {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}

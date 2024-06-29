@@ -1,0 +1,39 @@
+.report-light {
+  height: 100vh;
+  position: sticky;
+  z-index: 2;
+}
+
+.report-dark {
+  height: 90vh;
+  position: sticky;
+  z-index: 2;
+  background-color: rgb(27, 27, 27);
+}
+
+.reportPageHeader-light {
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.reportPageHeader-dark {
+  color: white;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+
+.nav-link{
+
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+  color: rgb(21, 163, 210);
+}
+
+.nav-link.active {
+  color: rgb(21, 163, 210);
+  border-bottom: 4px solid rgb(21, 163, 210) !important;
+}

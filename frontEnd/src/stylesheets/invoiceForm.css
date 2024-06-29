@@ -1,0 +1,87 @@
+td {
+  justify-content: center;
+  align-items: center;
+  padding-right: 5rem;
+}
+
+.custom-input-field {
+  width: 22rem;
+}
+
+.addRow {
+  margin-top: 2rem;
+}
+
+.order-table {
+    border-radius: 4px;
+}
+
+.col-pn-light {
+    width : 27rem;
+}
+
+.col-pn-dark {
+    width : 27rem;
+    background-color: rgb(84, 84, 84) !important;
+    color: white !important;
+}
+
+.col-op-light {
+    width : 7rem;
+}
+
+.col-op-dark {
+    width : 7rem;
+    background-color: rgb(84, 84, 84) !important;
+    color: white !important;
+}
+
+.col-rp-light {
+    width : 7rem;
+}
+
+.col-rp-dark {
+    width : 7rem;
+    background-color: rgb(84, 84, 84) !important;
+    color: white !important;
+}
+
+.col-tt-light {
+    width : 7rem;
+}
+
+.col-tt-dark {
+    width : 7rem;
+    background-color: rgb(84, 84, 84) !important;
+    color: white !important;
+}
+
+.col-qn-light {
+    width : 7rem;
+}
+
+.col-qn-dark {
+    width : 7rem;
+    background-color: rgb(84, 84, 84) !important;
+    color: white !important;
+}
+
+.col-dl-light {
+    width: 7rem;
+}
+
+.col-dl-dark {
+    width: 7rem;
+    background-color: rgb(84, 84, 84) !important;
+    color: white !important;
+}
+
+.orderPlacementBtn{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#productName {
+    color : green;
+}
