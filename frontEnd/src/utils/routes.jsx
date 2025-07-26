@@ -14,7 +14,7 @@ import AnalyticsReport from '../components/reports/salesAndProfitReport';
 const AppRoutes = ({ sidebarToggle }) => {
   return (
     <Routes>
-      <Route path="/*" element={<DashBoard sidebarToggle={sidebarToggle} />} />
+      <Route path="/*" element={<DashBoard />} />
       <Route path="/signin" element={<SignIn />} />
       <Route path="/login" element={<LogIn />} />
       <Route path="/inventory" element={<Inventory sidebarToggle={sidebarToggle} />} />

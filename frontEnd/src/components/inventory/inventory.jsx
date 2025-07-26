@@ -1,10 +1,9 @@
-import { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 import Brands from "./Brands";
 import "../../stylesheets/inventory.css";
 
-const Inventory = ({ fetchBrands }) => {
+const Inventory = () => {
   const userStore = useSelector((state) => state.user);
   const theme = userStore.theme;
 
